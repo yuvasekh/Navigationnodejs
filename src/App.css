@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+.navboard
+{
+  float: right;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  padding: 20px;
+  display: inline;
+ ;
+}
+li{
+  display: inline;
+  float: right;
+}
+.home,.about,.help,.search{
+  padding: 20px;
+  text-decoration:none;
+  /* border-right: 1px solid #bbb; */
+  text-align: center;
+  margin-left: 22px;
+  color: white;
+  font-size: 20px;
+  margin: 0 10px;
+  cursor: pointer;
+
+}
+.nav
+{
+  background-color: #61dafb;
+  display: flex;
+  height: 75px;
+}
+.homecolo
+{
+  background-color: #fa9a7d;
+  height: 700px;
+}
